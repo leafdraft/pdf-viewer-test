@@ -1,13 +1,14 @@
+import React from 'react';
+import PDF from 'react-pdf-js';
 
+import resume from "./assets/CSE493_QUIZ 1 _ Quizizz.pdf"; 
 
-function App() {
- 
-
+function MyApp() {
   return (
-    <>
-     <h1>Hello</h1>
-    </>
-  )
+    <div>
+      <PDF file={resume} onDocumentComplete={numPages => console.log(numPages)} scale={1} page={5} />
+    </div>
+  );
 }
 
-export default App
+export default MyApp;
