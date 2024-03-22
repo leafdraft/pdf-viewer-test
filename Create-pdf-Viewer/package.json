@@ -1,0 +1,23 @@
+{
+  "name": "your-package-name",
+  "version": "1.0.0",
+  "description": "Your package description",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dependency1": "^1.0.0",
+    "dependency2": "^2.0.0"
+  },
+  "devDependencies": {
+    "devDependency1": "^1.0.0"
+  },
+  "keywords": [
+    "keyword1",
+    "keyword2"
+  ],
+  "author": "Nitin Kushwaha",
+  "license": "MIT"
+}
